@@ -1,0 +1,54 @@
+.cancha {
+	width: 1000px;
+	height: 400px;
+	background: #09D626;
+	position: relative;
+}
+.linea {
+	width: 950px;
+	height: 350px;
+	border: 5px white solid;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.derecho {
+	width: 50px;
+	height: 200px;
+	border:5px white solid;
+	border-left: 0;
+	position: absolute;
+	top: 50px; 
+}
+.izquierdo {
+	width: 50px;
+	height: 200px;
+	border:5px white solid;
+	border-right: 0;
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+.centro {
+	border-radius:100px;
+	width: 200px;
+	height: 200px;
+	border:5px white solid; 
+	position: absolute;
+	top: 60px;
+	left: 400px; 
+}
+.bola1 {
+	position: absolute;
+	left: 40px;
+}
+.bola2 {
+	position: absolute;
+	top: 200px;
+	right: 59px;
+}
+.bola3 {
+	position: absolute;
+	left: 150px;
+	bottom: 210px;
+}/* Inserta tu CSS aqui */
